@@ -11248,6 +11248,10 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 
+.navbar-brand {
+  margin-left: 4rem;
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(1, 119, 84, 0.95), rgba(8, 228, 8, 0.95));
   padding: 10rem 0 0 0;
@@ -11255,6 +11259,9 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.intros button {
+  margin-top: 2rem;
+}
 .intros .video-box {
   position: relative;
 }
@@ -11311,7 +11318,11 @@ textarea.form-control-lg {
   }
 }
 .services__pic {
-  max-width: 100%;
+  position: relative;
+  left: 30%;
+  top: 40%;
+  max-width: 50%;
+  align-items: center;
 }
 
 .testimonials {
